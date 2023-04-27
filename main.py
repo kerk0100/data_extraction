@@ -10,6 +10,7 @@ from shapely.geometry import Point
 
 import os
 import sys
+import pyarrow
 
 
 # get data from api url and save into element tree

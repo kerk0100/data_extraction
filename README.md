@@ -18,6 +18,7 @@ datasets in the open data platform.
 * http://api.nanaimo.ca/dataservice/v1/sql/DevelopmentApplications/ (line 156 in [main.py](main.py))
 
 To run the program:
+* This program is written with python 3.9.6
 * Install requirements: `````$ pip install -r requirements.txt`````
 * From command line: `````$ python main.py [URL] [primary key]`````
   * If you do not include arguments when running the program, it will give you prompts to add the input within the program
@@ -27,6 +28,5 @@ To run the program:
 Assumptions/Process
 * To better filter/clean the data, I have included a primary key as one of the arguments. This ensures for example that a business licence number isn't duplicated, and minimizes error in querying later on
 * I assume that the date column in the original dataset gives the ability to detect its timezone
-* I have used python 3.9
 * I have included a few test cases (not exhaustive list) in [test.py](test.py)
 
